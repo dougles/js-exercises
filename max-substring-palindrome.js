@@ -9,7 +9,7 @@ function max_substring_palindrome(str) {
 	for (let i = 0; i < n; i++) {
 		leftPos = i;
 		rightPos = i + 1;
-		while (leftPos >= 0 && rightPos <= n && str[leftPos] === str[rightPos]) {
+		while (leftPos >= 0 && rightPos < n && str[leftPos] === str[rightPos]) {
 			leftPos --;
 			rightPos ++;
 		}
@@ -24,7 +24,7 @@ function max_substring_palindrome(str) {
 
 		leftPos = i - 1;
 		rightPos = i + 1;
-		while (leftPos >= 0 && rightPos <= n && str[leftPos] === str[rightPos]) {
+		while (leftPos >= 0 && rightPos < n && str[leftPos] === str[rightPos]) {
 			leftPos --;
 			rightPos ++;
 		}
