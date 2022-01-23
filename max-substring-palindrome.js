@@ -1,5 +1,5 @@
 
-function max_palindrome2(str) {
+function max_substring_palindrome(str) {
 	const n = str.length;
 	let max = 0;
 
