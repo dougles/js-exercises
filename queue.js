@@ -11,7 +11,6 @@ function weave(sourceOne, sourceTwo) {
     }
   }
 
-
   return qr;
 }
 
