@@ -13,11 +13,7 @@ class Tree {
 	}
 }
 
-
-const tree= new Tree(1,[
-	new Tree(2, [new Tree(4)]),
-	new Tree(3)
-	]);
+const tree= new Tree(1,[new Tree(2, [new Tree(4)]),	new Tree(3)	]);
 
 const values = [];
 for(let value of tree.printValues()){

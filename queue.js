@@ -1,6 +1,7 @@
 function weave(sourceOne, sourceTwo) {
 
-  const qr = new Queue()
+  const qr = new Queue();
+  
   while (sourceOne.peek() || sourceTwo.peek()) {
     if (sourceOne.peek()) {
       qr.add(sourceOne.remove());
